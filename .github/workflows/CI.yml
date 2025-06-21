@@ -6,7 +6,7 @@ on:
 
 jobs:
   builds:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
 
@@ -15,4 +15,3 @@ jobs:
 
       - name: Check
         run: ls
-        
